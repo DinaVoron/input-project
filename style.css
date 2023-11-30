@@ -1,0 +1,95 @@
+.form p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.form .main {
+    color: #263238;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 43px;
+}
+
+.form {
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+
+.form input {
+    border-radius: 4px;
+    font-size: 16px;
+    height: 45px;
+}
+
+.form__input {
+    height: 56px;
+    width: 232px;
+    margin-bottom: 43px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px rgba(38, 50, 56, 0.16) solid;
+}
+
+label {
+    position: absolute;
+    top: -7px;
+    left: 13px;
+    font-size: 12px;
+    background-color: white;
+    padding: 2px;
+}
+
+.form__name-phone {
+    display: flex;
+    max-width: fit-content;
+    gap: 19px;
+}
+
+.form__inside-form {
+    margin: 0px auto;
+    max-width: fit-content;
+    width: 598px;
+    height: 559px;
+}
+
+.form div {
+    max-width: fit-content;
+    position: relative;
+}
+
+.form__message input {
+    width: 485px;
+    height: 120px;
+}
+
+.form__message input {
+    margin-bottom: 25px;
+}
+
+.form__button {
+    margin-top: 11px;
+    background-color: #1BB55C;
+    color: white;
+    font-size: 16px;
+    width: 205px;
+    border: 1px rgba(38, 50, 56, 0.16) solid;
+}
+
+.form input:focus + label{
+    color:#1BB55C
+}
+
+.form input:focus {
+    outline: unset;
+    border: 2px #1BB55C solid;
+    color:#1BB55C
+}
+
+a {
+    color:#263238
+}
+
+.form__input_red {
+    border: 1px red solid;
+}
