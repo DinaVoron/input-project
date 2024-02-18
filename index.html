@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
     <head>
+        <title>Форма ввода</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -12,27 +13,27 @@
                 <div class="form__inside-form">
                     <div class="form__name-phone">
                         <div class="form__name">
-                            <input type="txt" class="form__input" onblur="handleName(event)">
-                            <label for="name">ФИО</label>
+                            <input type="text" class="form__input" onblur="handleName(event)">
+                            <label>ФИО</label>
                         </div>
                         <div class="form__phone">
-                            <input type="txt" class="form__input" onblur="handlePhone(event)">
+                            <input type="text" class="form__input" onblur="handlePhone(event)">
                             <label>Телефон</label>
                         </div>
                     </div>
                     <div class="form__email">
-                        <input type="txt" class="form__input" onblur="handleEmail(event)">
+                        <input type="text" class="form__input" onblur="handleEmail(event)">
                         <label>E-mail</label>
                     </div>
                     <div class="form__message">
-                        <input type="txt" class="form__input">
+                        <input type="text" class="form__input">
                         <label>Сообщение</label>
                     </div>
                     <p>Отправляя форму, вы соглашаетесь на <a href="#">обработку персональных данных</a></p>
                     <input type="submit" value="Отправить" class="form__button">
                 </div>
-            </div>
-        </form>
+            </form> 
+        </div>
         <script src="main.js"></script>
     </body>
 </html>

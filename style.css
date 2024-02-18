@@ -76,7 +76,18 @@ label {
     border: 1px rgba(38, 50, 56, 0.16) solid;
 }
 
-.form input:focus + label{
+.form__button:hover {
+    cursor: pointer;
+    animation: pulse 1s;
+    /* background-color: rgba(#b5411b, 0); */
+    box-shadow: 0 0 0 1em rgba(2, 2, 2, 0);
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 #1BB55C; }
+}
+
+.form input:focus + label {
     color:#1BB55C
 }
 
