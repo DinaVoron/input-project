@@ -4,6 +4,6 @@
 
 
 <p align="center">
-  <img src="example.jpg>
+  <img src="example.jpg">
 </p>
 
